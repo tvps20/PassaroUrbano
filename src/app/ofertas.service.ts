@@ -28,6 +28,7 @@ export class OfertasService {
 		return this.http.get(`${URL_API}/ofertas/?id=${id}`)
 		.toPromise()
 		.then((response: any) => {
+			// O shift retira a primeira posição do array, nessa situação retornava um array.
 			return response.json().shift()
 		})
 	}

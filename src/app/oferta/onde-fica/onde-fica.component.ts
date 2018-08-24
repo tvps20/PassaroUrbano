@@ -10,7 +10,7 @@ import { OfertasService } from '../../ofertas.service'
   providers: [ OfertasService ]
 })
 export class OndeFicaComponent implements OnInit {
-  // Usando o activate para poder começar a recuperar paramentros.
+
   public ondeFica: string = ''
   // Usando o activate para poder começar a recuperar paramentros.
   constructor(
