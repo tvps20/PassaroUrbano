@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+// Ajustando os numbes para o padrão brasileiro
+import { NgModule, LOCALE_ID } from '@angular/core';
+import localePt from "@angular/common/locales/pt";
 import { HttpModule } from '@angular/http'
 import { RouterModule } from '@angular/router'
 // Importando o mapa de rotas
@@ -14,6 +16,9 @@ import { DiversaoComponent } from './diversao/diversao.component';
 import { OfertaComponent } from './oferta/oferta.component';
 import { ComoUsarComponent } from './oferta/como-usar/como-usar.component';
 import { OndeFicaComponent } from './oferta/onde-fica/onde-fica.component';
+import { registerLocaleData } from '../../node_modules/@angular/common';
+// Pipe
+import { DescricaoReduzida } from './shared/descricao-reduzida.pipe'
 
 
 @NgModule({
@@ -26,14 +31,18 @@ import { OndeFicaComponent } from './oferta/onde-fica/onde-fica.component';
     DiversaoComponent,
     OfertaComponent,
     ComoUsarComponent,
-    OndeFicaComponent
+    OndeFicaComponent,
+    DescricaoReduzida
   ],
   imports: [
     BrowserModule,
     HttpModule,
     RouterModule.forRoot(ROUTES)
   ],
-  providers: [],
+  providers: [{provide:LOCALE_ID, useValue: 'pt' }],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+
+export class AppModule {}
+
+registerLocaleData(localePt);

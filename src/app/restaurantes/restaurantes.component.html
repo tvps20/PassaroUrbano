@@ -27,7 +27,8 @@
         </div>
 
         <div class="row">
-          <p>{{ oferta.valor }}</p>
+          <!-- Usando pipes -->
+          <p>{{ oferta.valor | currency:'BRL':true}}</p>
         </div>
 
         <div class="row">
