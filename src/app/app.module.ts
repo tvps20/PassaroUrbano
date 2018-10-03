@@ -16,9 +16,12 @@ import { DiversaoComponent } from './diversao/diversao.component';
 import { OfertaComponent } from './oferta/oferta.component';
 import { ComoUsarComponent } from './oferta/como-usar/como-usar.component';
 import { OndeFicaComponent } from './oferta/onde-fica/onde-fica.component';
+import { OrdemCompraComponent } from './ordem-compra/ordem-compra.component';
+import { OrdemCompraSucessoComponent } from './ordem-compra-sucesso/ordem-compra-sucesso.component';
 import { registerLocaleData } from '../../node_modules/@angular/common';
 // Pipe
 import { DescricaoReduzida } from './shared/descricao-reduzida.pipe'
+
 
 
 @NgModule({
@@ -32,7 +35,9 @@ import { DescricaoReduzida } from './shared/descricao-reduzida.pipe'
     OfertaComponent,
     ComoUsarComponent,
     OndeFicaComponent,
-    DescricaoReduzida
+    DescricaoReduzida,
+    OrdemCompraComponent,
+    OrdemCompraSucessoComponent
   ],
   imports: [
     BrowserModule,
