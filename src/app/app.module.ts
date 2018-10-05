@@ -4,6 +4,7 @@ import { NgModule, LOCALE_ID } from '@angular/core';
 import localePt from "@angular/common/locales/pt";
 import { HttpModule } from '@angular/http'
 import { RouterModule } from '@angular/router'
+import { FormsModule } from '@angular/forms'
 // Importando o mapa de rotas
 import { ROUTES } from './app.routes'
 
@@ -42,6 +43,7 @@ import { DescricaoReduzida } from './shared/descricao-reduzida.pipe'
   imports: [
     BrowserModule,
     HttpModule,
+    FormsModule,
     RouterModule.forRoot(ROUTES)
   ],
   providers: [{provide:LOCALE_ID, useValue: 'pt' }],
