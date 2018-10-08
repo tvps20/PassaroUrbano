@@ -208,102 +208,11 @@
       "id": 3
     },
     {
-      "endereco": "Rua 4",
-      "numero": "80",
-      "complemento": "",
+      "endereco": "Rua barão grande",
+      "numero": "55",
+      "complemento": null,
       "formaPagamento": "dinheiro",
       "id": 4
-    },
-    {
-      "endereco": "Rua Antonio Coelho Sobrinho",
-      "numero": "80",
-      "complemento": "",
-      "formaPagamento": "dinheiro",
-      "id": 5
-    },
-    {
-      "endereco": "",
-      "numero": "80",
-      "complemento": "",
-      "formaPagamento": "debito",
-      "id": 6
-    },
-    {
-      "endereco": "teste5",
-      "numero": "80",
-      "complemento": "",
-      "formaPagamento": "debito",
-      "id": 7
-    },
-    {
-      "endereco": "Rua Antonio Coelho Sobrinho",
-      "numero": "",
-      "complemento": "",
-      "formaPagamento": "dinheiro",
-      "id": 8
-    },
-    {
-      "endereco": "Rua Antonio Coelho Sobrinho",
-      "numero": "",
-      "complemento": "",
-      "formaPagamento": "dinheiro",
-      "id": 9
-    },
-    {
-      "endereco": "Rua Antonio Coelho Sobrinho",
-      "numero": "",
-      "complemento": "",
-      "formaPagamento": "dinheiro",
-      "id": 10
-    },
-    {
-      "endereco": "Rua Antonio Coelho Sobrinho",
-      "numero": "",
-      "complemento": "",
-      "formaPagamento": "dinheiro",
-      "id": 11
-    },
-    {
-      "endereco": "Rua Antonio Coelho Sobrinho",
-      "numero": "",
-      "complemento": "",
-      "formaPagamento": "dinheiro",
-      "id": 12
-    },
-    {
-      "endereco": "Rua Antonio Coelho Sobrinho",
-      "numero": "820",
-      "complemento": "",
-      "formaPagamento": "dinheiro",
-      "id": 13
-    },
-    {
-      "endereco": "Rua Antonio Coelho Sobrinho",
-      "numero": "",
-      "complemento": "",
-      "formaPagamento": "dinheiro",
-      "id": 14
-    },
-    {
-      "endereco": "Rua Antonio Coelho Sobrinho",
-      "numero": "20",
-      "complemento": "",
-      "formaPagamento": "dinheiro",
-      "id": 15
-    },
-    {
-      "endereco": "Rua Antonio Coelho Sobrinho",
-      "numero": "123",
-      "complemento": "",
-      "formaPagamento": "dinheiro",
-      "id": 16
-    },
-    {
-      "endereco": "Rua Antonio Coelho Sobrinho",
-      "numero": "783",
-      "complemento": "",
-      "formaPagamento": "dinheiro",
-      "id": 17
     }
   ]
 }
