@@ -6,8 +6,14 @@ import { HttpModule } from '@angular/http'
 import { RouterModule } from '@angular/router'
 import { ReactiveFormsModule } from '@angular/forms'
 //import { FormsModule } from '@angular/forms'
+
+import { CarrinhoService } from './carrinho.service'
+
 // Importando o mapa de rotas
 import { ROUTES } from './app.routes'
+
+// Pipe
+import { DescricaoReduzida } from './shared/descricao-reduzida.pipe'
 
 import { AppComponent } from './app.component';
 import { TopoComponent } from './topo/topo.component';
@@ -21,8 +27,7 @@ import { OndeFicaComponent } from './oferta/onde-fica/onde-fica.component';
 import { OrdemCompraComponent } from './ordem-compra/ordem-compra.component';
 import { OrdemCompraSucessoComponent } from './ordem-compra-sucesso/ordem-compra-sucesso.component';
 import { registerLocaleData } from '../../node_modules/@angular/common';
-// Pipe
-import { DescricaoReduzida } from './shared/descricao-reduzida.pipe'
+
 
 
 
@@ -47,8 +52,9 @@ import { DescricaoReduzida } from './shared/descricao-reduzida.pipe'
     ReactiveFormsModule,
     RouterModule.forRoot(ROUTES)
   ],
-  providers: [{provide:LOCALE_ID, useValue: 'pt' }],
-  bootstrap: [AppComponent]
+  // { provide: CarrinhoService, useValue: CarrinhoService }
+  providers: [ CarrinhoService, { provide:LOCALE_ID, useValue: 'pt' } ],
+  bootstrap: [ AppComponent ]
 })
 
 export class AppModule {}

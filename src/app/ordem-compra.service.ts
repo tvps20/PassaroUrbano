@@ -1,6 +1,6 @@
 // Está apto a receber serviços externos
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs/Observable'
+import { Observable } from 'rxjs/observable'
 import { Http, RequestOptions, Headers, Response } from '@angular/http';
 import { map } from 'rxjs/operators';
 

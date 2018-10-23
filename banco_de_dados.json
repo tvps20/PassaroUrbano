@@ -194,25 +194,52 @@
       "id": 1
     },
     {
-      "endereco": "Rua teste",
-      "numero": "20",
-      "complemento": "",
-      "formaPagamento": "debito",
+      "endereco": "Rua Antonio Coelho Sobrinho",
+      "numero": "115",
+      "complemento": null,
+      "formaPagamento": "dinheiro",
+      "itens": [
+        {
+          "id": 2,
+          "img": {
+            "url": "/assets/ofertas/2/img1.jpg"
+          },
+          "titulo": "Cozinha Mexicana",
+          "descricao_oferta": "Almoço ou Jantar com Rodízio Mexicano delicioso.",
+          "valor": 32.9,
+          "quantidade": 1
+        },
+        {
+          "id": 4,
+          "img": {
+            "url": "/assets/ofertas/4/img1.jpg"
+          },
+          "titulo": "Estância das águas",
+          "descricao_oferta": "Diversão garantida com piscinas, trilhas e muito mais.",
+          "valor": 31.9,
+          "quantidade": 2
+        }
+      ],
       "id": 2
     },
     {
-      "endereco": "Rua 3",
-      "numero": "70",
-      "complemento": "",
-      "formaPagamento": "dinheiro",
-      "id": 3
-    },
-    {
-      "endereco": "Rua barão grande",
-      "numero": "55",
+      "endereco": "Teste do carrinho vazio",
+      "numero": "85",
       "complemento": null,
-      "formaPagamento": "dinheiro",
-      "id": 4
+      "formaPagamento": "debito",
+      "itens": [
+        {
+          "id": 4,
+          "img": {
+            "url": "/assets/ofertas/4/img1.jpg"
+          },
+          "titulo": "Estância das águas",
+          "descricao_oferta": "Diversão garantida com piscinas, trilhas e muito mais.",
+          "valor": 31.9,
+          "quantidade": 1
+        }
+      ],
+      "id": 3
     }
   ]
 }
